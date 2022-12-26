@@ -43,5 +43,9 @@ Config = {
         ["weapon_pumpshotgun"] = { model = "w_sg_pumpshotgun", hash = 487013001},
         ["weapon_musket"] = { model = "w_ar_musket", hash = -1466123874},
         ["weapon_heavyshotgun"] = { model = "w_sg_heavyshotgun", hash = GetHashKey("WEAPON_HEAVYSHOTGUN")},
+        [`WEAPON_MG`] = {model = `WEAPON_MG`, hash = GetHashKey("WEAPON_HEAVYSHOTGUN")},
+        [`WEAPON_COMBATMG`] = {model = `WEAPON_COMBATMG`, hash = GetHashKey("WEAPON_HEAVYSHOTGUN")},
+        [`WEAPON_COMBATMG_MK2`] = {model = `WEAPON_COMBATMG_MK2`,hash = GetHashKey("WEAPON_HEAVYSHOTGUN")},
+        [`WEAPON_PISTOL50`] = {model = `WEAPON_PISTOL50`, hash = GetHashKey("WEAPON_HEAVYSHOTGUN")},
     }
 }
